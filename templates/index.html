@@ -44,6 +44,9 @@
         </div>
         <button type="submit">Submit</button>
     </form>
+    {% if error %}
+    <p>{{ error }}</p>
+    {% endif %}
   {% endblock %}
   </body>
 </html>
